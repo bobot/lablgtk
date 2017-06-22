@@ -1,5 +1,6 @@
 description = "Bindings for gtk2"
 requires = ""
+requires(mt) = "threads"
 version = "2.18.4"
 
 archive(byte) = "lablgtk.cma"
